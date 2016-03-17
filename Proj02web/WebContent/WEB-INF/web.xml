@@ -10,24 +10,22 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
- <servlet> 
-	  <servlet-name>servlet1</servlet-name> 
-	  <servlet-class>gitHub.servlet1</servlet-class> 
- </servlet>
- 
-  <servlet-mapping> 
-	  <servlet-name>servlet1</servlet-name> 
-	  <url-pattern>/Proj02web/servlet01</url-pattern> 
+    <servlet-mapping> 
+	  <servlet-name>servlet02</servlet-name> 
+	  <url-pattern>/Proj02web/servlet02</url-pattern> 
  </servlet-mapping> 
  
  <servlet>
- 	<servlet-name>servlet2</servlet-name>
+ 	<servlet-name>servlet02</servlet-name>
  	<servlet-class>gitHub.servlet02</servlet-class>
  </servlet>
- 
- <servlet-mapping>
- 	<servlet-name>servlet2</servlet-name>
- 	<url-pattern>/Proj02web/servlet02</url-pattern>
- </servlet-mapping>
 
+<!--  <servlet> -->
+<!--  	<servlet-name>servlet2</servlet-name> -->
+<!--  	<servlet-class>gitHub.servlet02</servlet-class> -->
+<!--  </servlet> -->
+<!--  <servlet-mapping> -->
+<!--  	<servlet-name>servlet2</servlet-name> -->
+<!--  	<url-pattern>servlet02</url-pattern> -->
+<!--  </servlet-mapping> -->
 </web-app>

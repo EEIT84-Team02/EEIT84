@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/servlet01")
+//@WebServlet("/servlet01")
 public class servlet01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -22,12 +22,11 @@ public class servlet01 extends HttpServlet {
 		out.print("</head>");
 		out.print("</body>");
 		out.print("<h3>Hello,world! </h3>");
-		out.print("</body>");
-
-		
+		out.print("</body>");	
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		this.doGet(request, response);
 	}
 
 }
