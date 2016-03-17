@@ -18,9 +18,11 @@
 <H1>鄭士均修改</H1>
 
 <h1 style="color: red" >我是司歐 請以我的版本為主 爽!!!</h1>
+<<<<<<< HEAD
 <H1>鄭士均修改kkk</H1>
 <H1>鄭士均修改kkk</H1>
 <H1>sdrfgrg鄭士均修改最終版</H1>
+
 
 </body>
 </html>
